@@ -1,0 +1,1026 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head><!-- hexo injector head_begin start -->
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.js"></script>
+
+<script src="https://kit.fontawesome.com/20d7bfb790.js" crossorigin="anonymous"></script>
+<!-- hexo injector head_begin end -->
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/wonder/img/fluid.png">
+  <link rel="icon" href="/wonder/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Timelapse">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="人生就是一场游戏，而物理就是这个物质世界的游戏规则。  方法简言常识R地 ≈ 6400km 名词与定义总功率 PE输出功率 PR电源内部发热功率 Pr 物理量ω单位：rad&#x2F;s，s-1 基础知识物理学上常见的矢量、标量举例① 矢量：力（包括力学中的”力”和电学中的”力”），力矩、位移、速度、加速度、动量、冲量、角动量、场强等 　② 标量：质量、密度、温度、功、功率、动能、势能、路程、速">
+<meta property="og:type" content="article">
+<meta property="og:title" content="物理">
+<meta property="og:url" content="https://timelapse0.github.io/wonder/physics/index.html">
+<meta property="og:site_name" content="Wonder">
+<meta property="og:description" content="人生就是一场游戏，而物理就是这个物质世界的游戏规则。  方法简言常识R地 ≈ 6400km 名词与定义总功率 PE输出功率 PR电源内部发热功率 Pr 物理量ω单位：rad&#x2F;s，s-1 基础知识物理学上常见的矢量、标量举例① 矢量：力（包括力学中的”力”和电学中的”力”），力矩、位移、速度、加速度、动量、冲量、角动量、场强等 　② 标量：质量、密度、温度、功、功率、动能、势能、路程、速">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://rsrc.drrr.wiki/3/35/3bf33a87e950352a271f6ed05343fbf2b3118be8.jpg">
+<meta property="og:image" content="https://timelapse0.github.io/wonder/img/physics/multimeter-internal-structure.jpg">
+<meta property="og:image" content="https://timelapse0.github.io/wonder/img/physics/multimeter.jpg">
+<meta property="og:image" content="https://timelapse0.github.io/wonder/img/physics/multimeter-resistance-scale.png">
+<meta property="og:image" content="https://timelapse0.github.io/wonder/img/physics/circuit-substitution.jpg">
+<meta property="article:published_time" content="2023-02-18T12:24:40.311Z">
+<meta property="article:modified_time" content="2023-02-28T10:42:28.746Z">
+<meta property="article:author" content="Timelapse">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://rsrc.drrr.wiki/3/35/3bf33a87e950352a271f6ed05343fbf2b3118be8.jpg">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>物理 - Wonder</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_3900010_3jfotff7y9b.css">
+
+
+<link  rel="stylesheet" href="/wonder/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/wonder/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/wonder/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/wonder/css/my.css">
+<link rel="stylesheet" href="/wonder/css/Obsidian%20Nord.css">
+<link rel="stylesheet" href="/wonder/css/link-card.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"timelapse0.github.io","root":"/wonder/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home","post","category","links","page"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/wonder/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/wonder/js/utils.js" ></script>
+  <script  src="/wonder/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/wonder/">
+      <strong>Wonder</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/want/">
+                <i class="iconfont icon-group"></i>
+                <span>投稿</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/../issues/">
+                <i class="iconfont icon-message"></i>
+                <span>圆桌</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/docs/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>详情</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/docs/project/">
+                <i class="iconfont icon-books-fill"></i>
+                <span>致知计划</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/links/">
+                <i class="iconfont icon-link-fill"></i>
+                <span>资源</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/../about/">
+                <i class="iconfont icon-extension"></i>
+                <span>我们</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/expectation/">
+                <i class="iconfont icon-heart"></i>
+                <span>愿景</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/../">
+                <i class="iconfont icon-doors"></i>
+                <span>DOORS</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/wonder/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="物理"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-02-18 20:24" pubdate>
+          2023年2月18日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.2k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          35 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">物理</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：13 天前
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body">
+                
+                <blockquote>
+<p>人生就是一场游戏，而物理就是这个物质世界的游戏规则。</p>
+</blockquote>
+<h2 id="方法简言"><a href="#方法简言" class="headerlink" title="方法简言"></a>方法简言</h2><h2 id="常识"><a href="#常识" class="headerlink" title="常识"></a>常识</h2><p>R地 ≈ 6400km</p>
+<h2 id="名词与定义"><a href="#名词与定义" class="headerlink" title="名词与定义"></a>名词与定义</h2><p>总功率 P<sub>E</sub><br>输出功率 P<sub>R</sub><br>电源内部发热功率 P<sub>r</sub></p>
+<h3 id="物理量"><a href="#物理量" class="headerlink" title="物理量"></a>物理量</h3><h4 id="ω"><a href="#ω" class="headerlink" title="ω"></a>ω</h4><p>单位：rad&#x2F;s，s-1</p>
+<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><h4 id="物理学上常见的矢量、标量举例"><a href="#物理学上常见的矢量、标量举例" class="headerlink" title="物理学上常见的矢量、标量举例"></a>物理学上常见的矢量、标量举例</h4><p>① 矢量：<strong>力</strong>（包括力学中的”力”和电学中的”力”），力矩、<strong>位移</strong>、速度、加速度、动量、冲量、角动量、场强等 　<br>② 标量：<strong>质量</strong>、密度、<strong>温度</strong>、功、功率、动能、势能、路程、速率、体积、<strong>时间</strong>、热量、<strong>电流</strong>、电阻等</p>
+<p><img src="https://rsrc.drrr.wiki/3/35/3bf33a87e950352a271f6ed05343fbf2b3118be8.jpg" srcset="/wonder/img/loading.gif" lazyload></p>
+<h3 id="力学"><a href="#力学" class="headerlink" title="力学"></a>力学</h3><h4 id="判断平衡"><a href="#判断平衡" class="headerlink" title="判断平衡"></a>判断平衡</h4><ul>
+<li>合力为 0</li>
+<li>力矩</li>
+</ul>
+<h4 id="《”作用力”与”反作用力”的本质区别》"><a href="#《”作用力”与”反作用力”的本质区别》" class="headerlink" title="《”作用力”与”反作用力”的本质区别》"></a>《”作用力”与”反作用力”的本质区别》</h4><blockquote>
+<p>作者：梁思武</p>
+</blockquote>
+<p>大家经常在使用”反作用力”这个概念，但是，对于究竟应该把什么样的力叫做”反作用力”却不甚了解。我们查阅了许多物理教材和词典，都没找到关于”反作用力”的确切定义，而只是依照牛顿第三定律来进行描述:”两个物体之间的作用力和反作用力总是同时存在，大小相等，方向相反，我们把其中的任意一个力叫做作用力，那么另一个力就叫做反作用力”。</p>
+<p>我们先放下前头的不说，只说后面一句关于作用力和反作用力的定义就存在严重问题，怎么能够任意把哪个力叫做作用力或者反作用力呢?在现实生活中，有些东西的确是可以不分彼此的，但是，还有许多东西是必须按照一定的规则来准确划分的。譬如两弟兄就只能把年龄大的叫哥哥，年龄小的叫弟弟嘛;又譬如原告与被告就不能任意颠倒嘛;尤其是不能把”你打我”颠倒过来说成是”我打你”对吧。</p>
+<p>什么叫做定义呢?百度词条说:对于一种事物的本质特征或一个概念的内涵和外延的确切而简要的说明;或是透过列出一个事件或者一个物件的基本属性来描述或规范一个词或一个概念的意义。它这个定义不仅没有反映出”反作用力”的本质特征，而且还把”反作用力”和”反向作用力”这两个概念混为一谈，使”反作用力”的研究工作失去了意义。所以长期以来，反作用力的有关性质都末能得到大家的充分认识和利用。</p>
+<p>那么，究竟应该把哪些力叫做”反作用力”呢?两个物体之间的相互作用可以分为下面两类情况，先让我们来分析一些具体实例，就可以看出其中的奥妙。</p>
+<p>第一类是甲物体主动作用于乙物体，乙物体随之被动地作用甲物体。例如人推车，马拉车，篮球打击地面，一个运动的铁球碰撞另一个不动的铁球等等。在这类情况中把甲物体对乙物体的力叫做”作用力”，把乙物体对甲物体的叫做”反作用力”是比较合理的。</p>
+<p>第二类是甲乙两个物体都主动地作用于对方，两个物体之间同时存在主动作用和被动作用。例如两个人搬手劲，两条牛顶角，两个运动的车对撞，两个运动的铁球对撞等等。在这类情况中如果也把甲物体对乙物体的力叫做”作用力”，把乙物体对甲物体的力叫做”反作用力”就不太合理了。因为，甲乙两个物体之间既有主动作用于对方的力存在，也有被动作用于对方的力存在，所以，我们认为甲乙两个物体除了受到对方的”反作用力”外，同时还受到了对方的”反向作用力”。</p>
+<p>甲乙两个物体之间的这两类不同的作用所受到的力大小显然不同，作用的效果也显然不同。但是，现行的物理学教材把它们混为一谈不加区别，明显是违反科学规律的做法。</p>
+<p>通过上述实例可以看出，作用力和反作用力的本质属性完全不同。作用力总是主动地作用于物体，具有明显的攻击性;而反作用力却总是被动地作用于物体，具有明显的防御性;作用力可以不依赖反作用力的存在而存在，但是反作用力则必须依赖作用力的存在而存在。反向作用力则与作用力的性质相似，都会主动地攻击对方，只不过方向相反罢了。</p>
+<p>通过对比分析我们发现:作用力与反作用力的关系和光线的反射特别相似，”作用力”好比是射入的光线，”反作用力”则好比是反射出来的光线，作用力是甲物体向乙物体发出的力，反作用力是乙物体给甲物体反向传递回来的力。其次作用力与反作用力的方向也和光线的反射特别相似，因为反射光线必须依赖入射光线的存在而存在，反射光线的强弱不仅与入射光线有关，而且还与反射光线的物体有关。反射光线的这些性质与反作用力的性质都特别相似。</p>
+<p>根据逻辑学中定义概念的一般方法和规则，我们认为应该明确地把”反作用力”定义为:物体在受到外力作用时，被动地反抗施力物体而产生的一种应力和阻力叫做反作用力。例如物体抗拉的张力、抗压的应力、摩擦阻力、惯性阻力、弹性阻力等等都是构成反作用力的因素。还应该明确地把”作用力”定义为:物体主动施加在另一个物体上的力叫做作用力。例如推力、拉力、压力、吸引力、排斥力等等都是构成作用力的因素。根据这两个定义就可以明确地界定”作用力”和”反作用力”的内涵和外延，从此以后，大家就再也不会把”作用力”和”反作用力”这两个概念混为一谈了。</p>
+<p>作用力与反作用力之间虽然有着本质性的差别，但是，它们在一定的条件下却可以相互转化。例如我们在拉弓射箭时，手的拉力是作用力，弓的弹力是反作用力。当我们把手松开后，弓的弹力就变成了作用力，而箭的惯性阻力又成了反作用力。</p>
+<h4 id="引力"><a href="#引力" class="headerlink" title="引力"></a>引力</h4><p><a href="./topic/Gravity">视重、重力等概念探讨</a></p>
+<h4 id="摩擦力产生原因"><a href="#摩擦力产生原因" class="headerlink" title="摩擦力产生原因"></a>摩擦力产生原因</h4><p>关于摩擦力的本质，尚未有定论，仍在深入讨论中。</p>
+<p>凹凸啮合说，粘附说</p>
+<h3 id="运动学"><a href="#运动学" class="headerlink" title="运动学"></a>运动学</h3><h5 id="双星系统"><a href="#双星系统" class="headerlink" title="双星系统"></a>双星系统</h5><p>宇宙中两颗相距较近的天体称为“双星”,们以两者连线上的某一固定点为圆心做匀速圆周运动，而不至于因万有引力的作用吸引到一起。</p>
+<p>两球m1m2 距离L 轨道半径为R1R2</p>
+<p>$ T1&#x3D;T2 $<br>$ ω1&#x3D;ω2 $<br>$ Gm1m2&#x2F;L²&#x3D;（m1）4π²R1&#x2F;T²① $<br>$ Gm1m2&#x2F;L²&#x3D;（m2）4π²R2&#x2F;T²② $<br>$ r+R&#x3D;L③ $<br>①②两式相除得<br>$ m2&#x2F;m1&#x3D;R1&#x2F;R2&#x3D;v1&#x2F;v2 $<br>联立③得<br>$ r&#x3D;m1L&#x2F;m1+m2，R&#x3D;m2L&#x2F;m1+m2 $<br>$ m1＋m2＝4π²L&#x2F;GT² $</p>
+<h3 id="动力学"><a href="#动力学" class="headerlink" title="动力学"></a>动力学</h3><h4 id="动量"><a href="#动量" class="headerlink" title="动量"></a>动量</h4><p>动量损失最大 完全非弹性碰撞<br>动量损失最小（&#x3D;0） 弹性碰撞</p>
+<h3 id="静力学"><a href="#静力学" class="headerlink" title="静力学"></a>静力学</h3><h4 id="力矩平衡"><a href="#力矩平衡" class="headerlink" title="力矩平衡"></a>力矩平衡</h4><p>轻杆的力必须延杆</p>
+<h4 id="二力杠杆"><a href="#二力杠杆" class="headerlink" title="二力杠杆"></a>二力杠杆</h4><p>对于一根轻杆，如果只在两端受力这两个力必然沿杆方向</p>
+<h3 id="电学"><a href="#电学" class="headerlink" title="电学"></a>电学</h3><blockquote>
+经历了无数次探索，
+
+<p>坚定着一个信念，</p>
+<p>一个定律——</p>
+<p>统率着</p>
+<p>电流 电压 电阻</p>
+<p>星星在眨眼，</p>
+<p>嫦娥也惊叹，</p>
+<p>人间的夜晚</p>
+<p>比白天更美。</p>
+<p>我们赞叹欧姆</p>
+<p>把世界装扮得如此灿烂辉煌！</p>
+</blockquote>
+
+
+
+<p>电器元件(如电容)的击穿电压(耐压值) 最大值<br>保险丝熔断电流 有效值</p>
+<p>【电容为100μF的电容器充电，电容器两端的电压从0V增加到100V，电源供给电容器的电能为（） - 上学吧找答案】<a target="_blank" rel="noopener" href="https://mbd.baidu.com/ma/s/Dipf45Hj">https://mbd.baidu.com/ma/s/Dipf45Hj</a></p>
+<h2 id="热学"><a href="#热学" class="headerlink" title="热学"></a>热学</h2><p>如果一个宏观态对应的微观态比较多，那么这个宏观态就比较无序。</p>
+<h2 id="实验"><a href="#实验" class="headerlink" title="实验"></a>实验</h2><h3 id="实验清单"><a href="#实验清单" class="headerlink" title="实验清单"></a>实验清单</h3><ol>
+<li>长度的测量</li>
+<li>互成角度的两个力的合成</li>
+<li>练习使用打点记时器</li>
+<li>测定匀变速直线运动的加速度</li>
+<li>验证牛顿第二定律</li>
+<li>碰撞中的动量守恒</li>
+<li>研究平抛物体的运动</li>
+<li>验证机械能守恒定律 </li>
+<li>用单摆测重力加速度</li>
+<li>用描迹法画出电场中平面上的等势线 </li>
+<li>测量金属的电阻率（同时练习使用螺旋测微器）</li>
+<li>用电流表和电压表测定电池的电动势和内电阻 </li>
+<li>练习使用多用电表测电阻</li>
+<li>传感器的简单应用</li>
+<li>测定玻璃的折射率</li>
+<li>探索弹力和弹簧伸长的关系 </li>
+<li>用油膜法估测分子的大小 </li>
+<li>描绘小电珠的伏安特性曲线 </li>
+<li>把电流表改装为电压表</li>
+<li>练习使用示波器</li>
+<li>用多用电表探索黑箱内的电学元件 </li>
+<li>用双缝干涉测光的波长</li>
+</ol>
+<p>图片：<a href="/wonder/img/physics/experiment-list.jpg">高中实验清单（2021年高考要求）</a></p>
+<h3 id="误差"><a href="#误差" class="headerlink" title="误差"></a>误差</h3><p>【例题】用沉淀滴定法测定纯 $NaCl$ 中氯的质量分数为 $60.56%$ 、$60.46%、$60.70%、$60.65%、$60.90%$ 。试计算测定结果的绝对误差和相对误差。</p>
+<p>【解】纯 $NaCl$ 中氯的质量分数的理论值(真值)为 $T$ :</p>
+<p>$T&#x3D;M(Cl)&#x2F;M(NaCl)×100%&#x3D;35.45&#x2F;58.44×100%&#x3D;60.66%$<br>平均值 $x&#x3D;(60.56%+60.46%+60.70%+60.56%+60.69%)&#x2F;5&#x3D;60.61%$<br>绝对误差 $E_{a}&#x3D;x-T&#x3D;60.61%-60.66%&#x3D;-0.05%$<br>相对误差 $E_{r}&#x3D;E_{a}&#x2F;T×100%&#x3D;(-0.05%)&#x2F;60.66%&#x3D;-0.09%$</p>
+<h3 id="读数"><a href="#读数" class="headerlink" title="读数"></a>读数</h3><p><a target="_blank" rel="noopener" href="https://baike.so.com/doc/2609451-2755292.html">https://baike.so.com/doc/2609451-2755292.html</a></p>
+<h3 id="逐差法"><a href="#逐差法" class="headerlink" title="逐差法"></a>逐差法</h3><p>逐差法需要的位移段数是偶数.<br>如果有奇数段位移，可舍去两端的一段或中间的一段.</p>
+<h3 id="仪器"><a href="#仪器" class="headerlink" title="仪器"></a>仪器</h3><h4 id="万用表-x2F-多用表（multimeter）"><a href="#万用表-x2F-多用表（multimeter）" class="headerlink" title="万用表&#x2F;多用表（multimeter）"></a>万用表&#x2F;多用表（multimeter）</h4><h5 id="内部结构"><a href="#内部结构" class="headerlink" title="内部结构"></a>内部结构</h5><p><img src="/wonder/img/physics/multimeter-internal-structure.jpg" srcset="/wonder/img/loading.gif" lazyload></p>
+<p>$r_{internal}&#x3D;R_{g}+r+R$</p>
+<h5 id="表头-关键"><a href="#表头-关键" class="headerlink" title="表头(关键)"></a>表头(关键)</h5><p><img src="/wonder/img/physics/multimeter.jpg" srcset="/wonder/img/loading.gif" lazyload></p>
+<h5 id="电流方向"><a href="#电流方向" class="headerlink" title="电流方向"></a>电流方向</h5><ul>
+<li><p>记住：红进（多用电表）黑出（多用电表）</p>
+</li>
+<li><p>电压表，电流表：外电路电源正极–＞红表笔–＞表头–＞黑表笔–＞外电路电源负极</p>
+</li>
+<li><p>欧姆表：外电路–＞红表笔–＞电源负极–＞电源正极–＞表头–＞黑表笔–＞外电路</p>
+</li>
+</ul>
+<h5 id="欧姆表刻度盘特点"><a href="#欧姆表刻度盘特点" class="headerlink" title="欧姆表刻度盘特点"></a>欧姆表刻度盘特点</h5><ul>
+<li>刻度反置<br><img src="/wonder/img/physics/multimeter-resistance-scale.png" srcset="/wonder/img/loading.gif" lazyload></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A 点（中值电阻）</td>
+<td>$$R_{external}&#x3D;r_{internal}，R_{sum}&#x3D;2r_{internal}$$  $$I&#x3D;\frac{E}{2r_{internal}}$$</td>
+</tr>
+<tr>
+<td>$\omega&#x3D;\infty$ 点</td>
+<td>未接通，短路 $R_{sum}→+\infty，I→0$</td>
+</tr>
+<tr>
+<td>$\omega&#x3D;0$ 点</td>
+<td>短接，短路 $R_{sum}&#x3D;r_{internal}，I_{m}&#x3D;\frac{E}{r_{internal}}$</td>
+</tr>
+</tbody></table>
+<div class="note note-info">
+            <p><strong>Extension</strong><br>设欧姆表指针偏转角为α，则偏转$n&#x3D;\frac{\Large{当前偏转角α}}{\Large{最大偏转角}} $。<br>$I&#x3D;\frac{E}{ r_{internal}+R }$<br>$I&#x3D;nI_{m}&#x3D;n\frac{E}{ r_{internal} }$</p><p>$<br>\Longrightarrow R+r_{internal}&#x3D;\frac{r_{internal}}{n}<br>\Longrightarrow R&#x3D;\frac{1-n}{n}r_{internal}<br>$</p>
+          </div>
+
+<h3 id="电学实验"><a href="#电学实验" class="headerlink" title="电学实验"></a>电学实验</h3><h4 id="测量电阻的方法"><a href="#测量电阻的方法" class="headerlink" title="测量电阻的方法"></a>测量电阻的方法</h4><ul>
+<li>伏安法</li>
+<li>替代法</li>
+</ul>
+<p><img src="/wonder/img/physics/circuit-substitution.jpg" srcset="/wonder/img/loading.gif" lazyload></p>
+<ul>
+<li>比较法</li>
+</ul>
+<pre><code class="mermaid">graph LR
+A(比较法)<span class="token arrow-head arrow operator">-- R&lt;sub>A&lt;sub> 已知--></span>B(安安法) 
+A(比较法)<span class="token arrow-head arrow operator">-- R&lt;sub>V&lt;/sub> 已知--></span>C(伏伏法)
+B<span class="token arrow-head arrow operator">--当作--></span> 电压表
+C<span class="token arrow-head arrow operator">--当作--></span> 电流表</code></pre>
+
+
+<ul>
+<li>半偏法</li>
+<li>电桥法</li>
+</ul>
+<h2 id="应试"><a href="#应试" class="headerlink" title="应试"></a>应试</h2><h3 id="压轴题"><a href="#压轴题" class="headerlink" title="压轴题"></a>压轴题</h3><h4 id="常见类型"><a href="#常见类型" class="headerlink" title="常见类型"></a>常见类型</h4><ul>
+<li><p>动量守恒</p>
+</li>
+<li><p>重复过程</p>
+</li>
+</ul>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>物理</div>
+      <div>https://timelapse0.github.io/wonder/physics/index.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Timelapse</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2023年2月18日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/wonder/2023/02/18/chemisty/index/" title="">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/wonder/2023/02/18/linguistics/%E6%96%87%E5%AD%A6/index/" title="">
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"dX4OrDSvWIIAgtrtPuKtuAcN-gzGzoHsz","appKey":"EYcnFYanjdU56agYrPwGtul3","path":"window.location.pathname","placeholder":"请不要吝啬你的想法呢","avatar":"monsterid","meta":["nick","mail"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":false,"serverURLs":"","emojiCDN":"https://timelapse0.github.io/emoticon/","emojiMaps":{"allright":"a/a-allright.png","catdog":"a/a-catdog.png","confused":"a/a-confused.png","emm":"a/a-emm.png","huh":"a/a-huh.png","tears":"a/a-tears.png","water-mouth":"a/a-water-mouth.png","yjsy":"a/a-yjsy.png"},"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+  <script>
+  Fluid.utils.createScript('https://lib.baomitu.com/mermaid/8.14.0/mermaid.min.js', function() {
+    mermaid.initialize({"theme":"default"});
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('mermaid' in window) {
+        mermaid.init();
+      }
+    });
+  });
+</script>
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a id="donate" target="_blank" rel="nofollow noopener"><span>Donate</span></a> <i class="iconfont icon-love"></i> <a href="/about/" target="_blank" rel="nofollow noopener"><span>Timelapse</span></a> <div id="container"></div> <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.js"></script> <script> $("#donate").bind("click",function(){ var newElement = "<img src=\"/img/wechat.png\" style=\"width:100vw;height:100vh;object-fit:contain;margin:auto;\">"; $("#container").append(newElement); $("#container").css("z-index","10000");    $("#container").css("opacity","1");
+$("#container").bind("click",function(){  $("#container").css("opacity","0"); $("#container").css("z-index","-1"); $("#container").html(""); }) }) </script>
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/wonder/js/events.js" ></script>
+<script  src="/wonder/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/wonder/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script  src="/wonder/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/wonder/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+<!-- hexo injector body_end start -->
+<script>
+$('.page-content p a').addClass('iconfont')
+</script>
+
+<script>
+var html = $('.page-content').html();
+var html = html.replace('“',"「 ").replace('”',"」");
+
+  $('.link-card-pro').attr('ready','false');
+  $('.link-card-pro').each(function(){
+  var ready = $(this).attr('ready');
+  if(ready=='false'){
+  var alt = $(this).html();
+  var src = $(this).attr('pre');
+  var html = "<img src='"+src+"' alt='"+alt+"'><div class='link-content'><p>"+alt+"</p></div>";
+  $(this).html(html);
+  $(this).attr('ready','true')
+  }
+  })
+</script>
+<!-- hexo injector body_end end --></body>
+</html>

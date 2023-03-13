@@ -1,0 +1,922 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head><!-- hexo injector head_begin start -->
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.js"></script>
+
+<script src="https://kit.fontawesome.com/20d7bfb790.js" crossorigin="anonymous"></script>
+<!-- hexo injector head_begin end -->
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/wonder/img/fluid.png">
+  <link rel="icon" href="/wonder/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Timelapse">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="人生之路 逻辑学中的方法 例如分析法(包括逆证法)、综合法、反证法、归纳法、穷举法(要求分类讨论)等。  数学中的一般方法 例如建模法、消元法、降次法、代入法、图象法(也称坐标法，在代数中常称图象法，在我们今后要学习的解析几何中常称坐标法)、比较法(数学中主要是指比较大小，这与逻辑学中的多方位比较不同)、放缩法，以及将来要学习的向量法、数学归纳法(这与逻辑学中的不完全归纳法不同)等。  数学中的特">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数学学习">
+<meta property="og:url" content="https://timelapse0.github.io/wonder/2023/03/04/math/learn/index.html">
+<meta property="og:site_name" content="Wonder">
+<meta property="og:description" content="人生之路 逻辑学中的方法 例如分析法(包括逆证法)、综合法、反证法、归纳法、穷举法(要求分类讨论)等。  数学中的一般方法 例如建模法、消元法、降次法、代入法、图象法(也称坐标法，在代数中常称图象法，在我们今后要学习的解析几何中常称坐标法)、比较法(数学中主要是指比较大小，这与逻辑学中的多方位比较不同)、放缩法，以及将来要学习的向量法、数学归纳法(这与逻辑学中的不完全归纳法不同)等。  数学中的特">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://timelapse0.github.io/wonder/img/math/pic1.png">
+<meta property="article:published_time" content="2023-03-04T09:23:36.170Z">
+<meta property="article:modified_time" content="2023-03-04T10:03:12.792Z">
+<meta property="article:author" content="Timelapse">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://timelapse0.github.io/wonder/img/math/pic1.png">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>数学学习 - Wonder</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_3900010_3jfotff7y9b.css">
+
+
+<link  rel="stylesheet" href="/wonder/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/wonder/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/wonder/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/wonder/css/my.css">
+<link rel="stylesheet" href="/wonder/css/Obsidian%20Nord.css">
+<link rel="stylesheet" href="/wonder/css/link-card.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"timelapse0.github.io","root":"/wonder/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home","post","category","links","page"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false}},"search_path":"/wonder/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/wonder/js/utils.js" ></script>
+  <script  src="/wonder/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/wonder/">
+      <strong>Wonder</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/want/">
+                <i class="iconfont icon-group"></i>
+                <span>投稿</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/../issues/">
+                <i class="iconfont icon-message"></i>
+                <span>圆桌</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/docs/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>详情</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/docs/project/">
+                <i class="iconfont icon-books-fill"></i>
+                <span>致知计划</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/links/">
+                <i class="iconfont icon-link-fill"></i>
+                <span>资源</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/../about/">
+                <i class="iconfont icon-extension"></i>
+                <span>我们</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/expectation/">
+                <i class="iconfont icon-heart"></i>
+                <span>愿景</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/wonder/../">
+                <i class="iconfont icon-doors"></i>
+                <span>DOORS</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/wonder/img/default.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="数学学习"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2023-03-04 17:23" pubdate>
+          2023年3月4日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          1.7k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          15 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">数学学习</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：9 天前
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body">
+                
+                <h2 id="人生之路"><a href="#人生之路" class="headerlink" title="人生之路"></a>人生之路</h2><ol>
+<li><p>逻辑学中的方法 例如分析法(包括逆证法)、综合法、反证法、归纳法、穷举法(要求分类讨论)等。</p>
+</li>
+<li><p>数学中的一般方法 例如建模法、消元法、降次法、代入法、图象法(也称坐标法，在代数中常称图象法，在我们今后要学习的解析几何中常称坐标法)、比较法(数学中主要是指比较大小，这与逻辑学中的多方位比较不同)、放缩法，以及将来要学习的向量法、数学归纳法(这与逻辑学中的不完全归纳法不同)等。</p>
+</li>
+<li><p>数学中的特殊方法 例如配方法、待定系数法、消元法、公式法、换元法(也称之为中间变量法)、拆项补项法(含有添加辅助元素实现化归的数学思想)、因式分解诸方法，以及平行移动法、翻折法等。</p>
+</li>
+</ol>
+<h2 id="书写"><a href="#书写" class="headerlink" title="书写"></a>书写</h2><li>∵后面要用“，”，∴后面要用“．”</li>
+<li>在一道大题中若有若干小问，则每小问结束接“；”，最后一问结束用“．”</li>
+
+<li>在①②③④这样的序号后都应用“；”表连接，最后一个序号后用“．”表结束</li>
+
+<li>我国规定文献类文章句号必须用“．”</li>
+
+<li>“{”表示且的意思</li>
+
+<li>如果某个量的定义式带有指数、对数、三角函数等超越函数的运算，则计算时通常只带数值，不带单位。</li>
+
+
+
+<h2 id="定义与名词"><a href="#定义与名词" class="headerlink" title="定义与名词"></a>定义与名词</h2><p>完全立方差公式与完全立方和公式共称为完全立方公式。</p>
+<p>一般地，用纯粹的大于号“&gt;”、小于号“&lt;”连接的不等式称为严格不等式，用不小于号（大于或等于号）“≥”、不大于号（小于或等于号）“≤”连接的不等式称为非严格不等式，或称广义不等式。总的来说，用不等号(&lt;，&gt;，≥，≤，≠)连接的式子叫做不等式。</p>
+<p>多面体：棱柱，棱锥，棱台<br>斜棱柱：侧棱不垂直于底面的棱柱<br>直棱柱：侧棱垂直于底面的棱柱<br>正棱柱：底面是正多边形的直棱柱<br>正棱锥：底面是正多边形，且顶点在底面内的射影是底面的中心的棱锥<br>正棱台：由正棱锥截得的棱台</p>
+<p>旋转体：圆柱，圆锥，圆台，球体</p>
+<h2 id="计算器"><a href="#计算器" class="headerlink" title="计算器"></a>计算器</h2><p>M&#x3D;Memory</p>
+<p>M+是将当前屏幕数字和M相加并存入M中。</p>
+<p>M-是将当前屏幕数字和M相减并存入M中。</p>
+<p>MC&#x3D;Memory Clean</p>
+<p>MR&#x3D;Memory Read</p>
+<h2 id="基础知识"><a href="#基础知识" class="headerlink" title="基础知识"></a>基础知识</h2><h3 id="数学归纳法"><a href="#数学归纳法" class="headerlink" title="数学归纳法"></a>数学归纳法</h3><p>第一数学归纳法可以概括为以下三步：</p>
+<p>(1)归纳奠基：证明n&#x3D;1时命题成立；</p>
+<p>(2)归纳假设：假设n&#x3D;k时命题成立；</p>
+<p>(3)归纳递推：由归纳假设推出n&#x3D;k+1时命题也成立．<br>第二数学归纳法原理是设有一个与自然数n有关的命题，如果：</p>
+<p>（1）当n＝1时，命题成立；</p>
+<p>（2）假设当n≤k时命题成立，由此可推得当n＝k+1时，命题也成立。</p>
+<p>那么，命题对于一切自然数n来说都成立。</p>
+<h3 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h3><p>（1）∁U（A∩B）&#x3D;（∁UA）∪（∁UB），即“交之补”等于“补之并”；<br>（2）∁U（A∪B）&#x3D;（∁UA）∩（∁UB），即“并之补”等于“补之交”。</p>
+<h3 id="几何"><a href="#几何" class="headerlink" title="几何"></a>几何</h3><p>平面多边形的对角线条数：n(n-3)&#x2F;2<br>几何体的对角线(如n棱柱)条数：n(n-3)</p>
+<h2 id="技巧-Trick"><a href="#技巧-Trick" class="headerlink" title="技巧 Trick"></a>技巧 Trick</h2><ul>
+<li>#求导技巧 指数&amp;对数</li>
+</ul>
+<h2 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h2><h3 id="【题】已知-overline-OB-x3D-5-，求-overline-BC-min"><a href="#【题】已知-overline-OB-x3D-5-，求-overline-BC-min" class="headerlink" title="【题】已知 $\overline{OB} &#x3D;5$，求 $\overline{BC}_{min}$."></a>【题】已知 $\overline{OB} &#x3D;5$，求 $\overline{BC}_{min}$.</h3><p><img src="/wonder/img/math/pic1.png" srcset="/wonder/img/loading.gif" lazyload><br>【解】<br><strong>法（一）</strong></p>
+<p>$$<br>\left\{<br>\begin{array}{l}<br>\frac{a}{sinθ}&#x3D;\frac{5}{sin(θ+\frac{\pi}{3})} \\<br>\frac{c}{sin(2\pi-θ)}&#x3D;\frac{5}{sin(θ-\frac{\pi}{3})}<br>\end{array}<br>\right.<br>\Longrightarrow \frac{1}{a}+\frac{1}{c}&#x3D;\frac{1}{5}<br>$$<br>再由 $\sqrt{\frac{1}{ac}} \le \frac{1}{a}+\frac{1}{c}&#x3D;\frac{1}{5}$ 算出结果。</p>
+<p><strong>法（二）</strong><br>利用三角形面积。</p>
+<h3 id="【题】设-f-x-x3D-x-1-x-2-……-x-2020-，则-f-2020-’-x3D"><a href="#【题】设-f-x-x3D-x-1-x-2-……-x-2020-，则-f-2020-’-x3D" class="headerlink" title="【题】设 $f(x)&#x3D;(x-1)(x-2)……(x-2020)$，则 ${f(2020)}’ &#x3D;$___."></a>【题】设 $f(x)&#x3D;(x-1)(x-2)……(x-2020)$，则 ${f(2020)}’ &#x3D;$___.</h3><p>【答】$2019!$</p>
+<h2 id="拓展知识"><a href="#拓展知识" class="headerlink" title="拓展知识"></a>拓展知识</h2><p>知乎用户@小小魔术师的回答 - 知乎<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/21800718/answer/114565630">https://www.zhihu.com/question/21800718/answer/114565630</a></p>
+<h2 id="资源"><a href="#资源" class="headerlink" title="资源"></a>资源</h2><p><a target="_blank" rel="noopener" href="http://lanqi.org/">http://lanqi.org/</a></p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>数学学习</div>
+      <div>https://timelapse0.github.io/wonder/2023/03/04/math/learn/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Timelapse</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2023年3月4日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/wonder/2023/03/04/%E5%90%8E%E6%94%BEsource%E4%B8%8B/unified-knowledge/military/" title="军事">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">军事</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/wonder/2023/03/01/English/writing/brochure/" title="">
+                        <span class="hidden-mobile"></span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"dX4OrDSvWIIAgtrtPuKtuAcN-gzGzoHsz","appKey":"EYcnFYanjdU56agYrPwGtul3","path":"window.location.pathname","placeholder":"请不要吝啬你的想法呢","avatar":"monsterid","meta":["nick","mail"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":false,"serverURLs":"","emojiCDN":"https://timelapse0.github.io/emoticon/","emojiMaps":{"allright":"a/a-allright.png","catdog":"a/a-catdog.png","confused":"a/a-confused.png","emm":"a/a-emm.png","huh":"a/a-huh.png","tears":"a/a-tears.png","water-mouth":"a/a-water-mouth.png","yjsy":"a/a-yjsy.png"},"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+  <script>
+  Fluid.utils.createScript('https://lib.baomitu.com/mermaid/8.14.0/mermaid.min.js', function() {
+    mermaid.initialize({"theme":"default"});
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('mermaid' in window) {
+        mermaid.init();
+      }
+    });
+  });
+</script>
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a id="donate" target="_blank" rel="nofollow noopener"><span>Donate</span></a> <i class="iconfont icon-love"></i> <a href="/about/" target="_blank" rel="nofollow noopener"><span>Timelapse</span></a> <div id="container"></div> <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.3/jquery.js"></script> <script> $("#donate").bind("click",function(){ var newElement = "<img src=\"/img/wechat.png\" style=\"width:100vw;height:100vh;object-fit:contain;margin:auto;\">"; $("#container").append(newElement); $("#container").css("z-index","10000");    $("#container").css("opacity","1");
+$("#container").bind("click",function(){  $("#container").css("opacity","0"); $("#container").css("z-index","-1"); $("#container").html(""); }) }) </script>
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/wonder/js/events.js" ></script>
+<script  src="/wonder/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/wonder/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script  src="/wonder/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/wonder/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+<!-- hexo injector body_end start -->
+<script>
+$('.page-content p a').addClass('iconfont')
+</script>
+
+<script>
+var html = $('.page-content').html();
+var html = html.replace('“',"「 ").replace('”',"」");
+
+  $('.link-card-pro').attr('ready','false');
+  $('.link-card-pro').each(function(){
+  var ready = $(this).attr('ready');
+  if(ready=='false'){
+  var alt = $(this).html();
+  var src = $(this).attr('pre');
+  var html = "<img src='"+src+"' alt='"+alt+"'><div class='link-content'><p>"+alt+"</p></div>";
+  $(this).html(html);
+  $(this).attr('ready','true')
+  }
+  })
+</script>
+<!-- hexo injector body_end end --></body>
+</html>
