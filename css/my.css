@@ -2,6 +2,9 @@
     -webkit-tap-highlight-color:transparent;
     outline:none;
 }
+[data-user-color-scheme="light"] #navbar{
+    background:white;
+}
 .page-content h2{color: #bf616a !important;}
 .page-content h3{color: #d08770 !important;}
 .page-content h4{color: #ebcb8b !important;}
@@ -96,4 +99,14 @@ code,pre{
     text-shadow: none !important;
     color:#6483B0 !important;
     box-shadow: none !important;
+}
+blockquote{
+    font-weight:400;
+    display:block;
+    width: 90%;
+    left:0;
+    margin: 1rem 0rem;
+    padding:0rem 0.8rem;
+    border-left:0.5rem solid rgba(118,133, 151,100%);
+    color: rgba(118,133, 151,100%);
 }
